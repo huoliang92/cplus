@@ -1,0 +1,18 @@
+huolianghfut@163.com
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+echo "# pythonPractice" >> README.md  //新建一个md的说明文档
+git init
+git add README.md  
+git commit -m "first commit" //初始化仓库后，传md文件到本地仓库
+git branch -M main  //给分支重新命名
+git remote add origin https://github.com/huoliang92/pythonPractice.git  //与仓库建立连接，并把仓库起名叫origin
+git push -u origin main  // 把本地仓库的文件推上去
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+C++ 的分支
+git remote add origin https://github.com/huoliang92/cplus.git
+
+Python 的分支
+git remote add origin https://github.com/huoliang92/pythonPractice.git
