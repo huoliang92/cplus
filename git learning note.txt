@@ -8,10 +8,12 @@ Python 的分支
 git remote add origin https://github.com/huoliang92/pythonPractice.git
 
 
+ipconfig /flushdns
+
 <<<<<<<<<<<<<<<<<<<<<<新建一个仓库<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 echo "# pythonPractice" >> README.md  //新建一个md的说明文档
 git init
-git add README.md  
+git add README.md
 git commit -m "first commit" //初始化仓库后，传md文件到本地仓库
 git branch -M main  //给分支重新命名
 git remote add origin https://github.com/huoliang92/pythonPractice.git  //与仓库建立连接，并把仓库起名叫origin
@@ -25,3 +27,12 @@ git config --global alias.pm "push origin main"
 git config --global alias.st "status"
 git config --global alias.br "branch"
 git config --global alias.ck "checkout"
+
+
+<<<<<<<<<<<<<<<<<<<<<< .gitignore 文件内，可以设置忽略的内容 <<<<<<<<<<<<<<<<<<<<<<
+*.editorconfig
+/.vscode
+
+<<<<<<<<刷新DNS缓存配置
+ipconfig /flushdns
+
